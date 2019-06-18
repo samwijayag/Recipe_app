@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Search = ({search,onInputChange,onFormSubmit}) => {
+const Search = ({search,onInputChange,onInputSubmit}) => {
 	return(
 		<div>
-			<form className='search-form' onSubmit= {onFormSubmit}>
+			<form className='search-form' onSubmit= {onInputSubmit}>
 				<input 
 					onChange = {onInputChange}
 					value = {search}
